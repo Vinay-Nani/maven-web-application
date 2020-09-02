@@ -109,7 +109,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <nameAbc-Snapshot></name>
+	      <name>Abc-Snapshot></name>
 	      <url>http://13.233.75.200:8081/repository/Abc-Snapshot/</url>
 	    </snapshotRepository>
 	    
