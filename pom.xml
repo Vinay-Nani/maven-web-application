@@ -28,6 +28,12 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	<repositories>
+		<repository>
+		<id>nexus</id>
+		<url>http://13.233.75.200:8081/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		
@@ -97,14 +103,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.103.28:8081/repository/flipkart-releases/</url>
+	      <name>Abc-release</name>
+	      <url>http://13.233.75.200:8081/repository/Abc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.103.28:8081/repository/flipkart-snapshot/</url>
+	      <nameAbc-Snapshot></name>
+	      <url>http://13.233.75.200:8081/repository/Abc-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
